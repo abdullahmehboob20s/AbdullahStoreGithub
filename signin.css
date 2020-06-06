@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    scroll-behavior: smooth;
+}
+
+#nbbar{
+    color: black;
+    background-color: rgb(238, 188, 122);
+}
+.badmashuni{
+    width: 100px;
+    text-align: center;
+    margin: 0 10px 0 10px;
+    outline: none;
+    color: black;
+    position: relative;
+}
+.badmashuni:hover{
+    color: rgb(194, 90, 0);
+}
+
+.badmash{
+    width: 100px;
+    text-align: center;
+    margin: 0 10px 0 10px;
+    outline: none;
+    color: black;
+    position: relative;
+}
+.badmash::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    height: 5%;
+    transform: scaleX(0);
+    transform-origin:left ;
+    transition: all 0.3s linear;
+}
+.badmash:hover:after{
+    transform: scaleX(1);
+}
+.dropdown-item{
+    margin: 10px 0;
+    text-align: center !important;
+}
+.dropdown-item:hover{
+    background-color: orange !important;
+    color: white !important;
+}
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+.badmash:hover{
+    color: rgb(194, 90, 0);
+}
+.bandna{
+    color: black;
+    font-weight: bold;
+}
+#main{
+    background-color: black;
+    color: white;
+    
+}
+.foot{
+    margin-top: 100px;
+    background-color: rgb(112, 112, 112);
+    line-height: 5vh;
+    margin-bottom: 0;
+    color: white;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+.singup{
+    height: 91vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lolside{
+    width: 600px;
+    height: 500px;
+    /* background-color: yellow; */
+}
+.lolc1{
+    width: 100%;
+    /* height: 400px; */
+    /* border: 2px solid black; */
+}
+@media (max-width:850px){
+    .lolside{
+        display: none;
+    }
+}
+
+.rorside{
+    width: 400px;
+    padding: 30px;
+    height: 400px;
+    /* border: 2px solid green; */
+    background-color: rgb(245, 171, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 15px 15px 20px gray;
+    margin: 0 20px;
+}
+.fm0{
+    margin-bottom: 30px;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    padding-bottom: 30px;
+}
+.fm1{
+    margin: 10px 0;
+}
+.fm2{
+    margin: 10px 0;
+}
+.fm3{
+    margin: 10px 0;
+}
